@@ -20,6 +20,8 @@ import java.util.logging.Logger;
 public class Login extends javax.swing.JFrame {
 
     public boolean loginCheck() throws SQLException{
+        
+        //pl
         String query;
         String dbUsername;
         dbUsername = jTextField2.getText();
